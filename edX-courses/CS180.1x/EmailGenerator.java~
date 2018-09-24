@@ -1,0 +1,17 @@
+import Scanner.java.util;
+
+public class EmailGenerator{
+
+  public String makeUserName(a, b){
+    String c = a + b;
+    c = c.toLowerCase();
+  }
+  
+  public String makeEmail(a, b){
+  String c = a + "@" + b;
+  }
+  
+  public static void main (String[] args){
+  }
+  
+}

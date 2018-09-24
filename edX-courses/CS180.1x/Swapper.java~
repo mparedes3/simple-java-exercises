@@ -1,0 +1,29 @@
+/**
+ * @author: Marco Paredes
+ * Progra suitable to compare values of two variable
+ */
+import java.util.Scanner;
+
+public class Swapper{
+  
+  public static boolean input(){
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Please insert an integer value: ");
+    int x = scanner.nextInt();
+    System.out.println("Please insert another integer value: ");
+    int y = scanner.nextInt();
+    
+    if (y < x){
+      System.out.err("ERROR: PLEASE FOLLOW INSTRUCTIONS");
+      input();
+    } else {
+      return x;
+    }
+  }
+  
+  public static void main (String[] args){
+    int input = input();
+   
+    
+  }
+}

@@ -1,0 +1,39 @@
+/** @author your_name
+*/
+
+public class Rewards {
+
+  public int points;
+
+  /** @param points int to record current point level
+  */
+  public Rewards(int points) {
+
+   //TODO: constructor definition
+   
+   
+
+  }
+
+  /** @return String of possible choices
+  */
+  public String showRewards() {
+   //TODO: showRewards definition
+    
+   
+   
+   
+  }
+
+  /** @param choice int to
+  *   @return String reward chosen
+  */
+  public String getReward(int choice) {
+ //TODO: getReward definition
+    
+   
+   
+   
+  }
+
+}

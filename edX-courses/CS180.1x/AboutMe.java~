@@ -1,0 +1,31 @@
+public class AboutMe{
+                   
+ String name;
+ 
+ Marco (String name){
+  this.name = name;
+ }
+ 
+ String myName(){
+  return "Marco";
+ }
+ 
+ String mySchool(){
+  return "Olympian High School";
+ }
+ 
+ int myAge(){
+  return 16;
+ }
+ 
+ public static void main (String [] args){
+   Marco m = new Marco();
+  
+  System.out.print("My name is " + m.myName());
+   System.out.print(", and I attend " + m.mySchool() + ".");
+   System.out.println(" I am " + m.myAge() + " years old.");
+   
+  
+  
+ }
+}
